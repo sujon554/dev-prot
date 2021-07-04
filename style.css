@@ -1,0 +1,29 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 55px;
+}
+.readme {
+  background-color: orange;
+}
+.orange-color {
+  color: orange;
+}
+
+section {
+  display: flex;
+}
+.first-half {
+  width: 90%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+
+.second-half {
+  width: 800px;
+  height: 2000px;
+  float: right;
+}
