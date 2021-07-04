@@ -14,9 +14,9 @@ h1 {
 
 section {
   display: flex;
-  margin-bottom: 150px;
 }
-.first-half {
+.first-half,
+.expreance-2col {
   width: 100%;
   float: left;
   margin-left: 5%;
@@ -42,11 +42,14 @@ section {
   background-repeat: no-repeat;
 }
 .imgagesec {
+  margin: 120px 0;
   background-image: url(image/nukli.PNG);
   background-repeat: no-repeat;
   background-position: right;
-  padding-bottom: 250px;
 }
 .sec-half {
   width: 100%;
+}
+.expreancecol {
+  display: flex;
 }
